@@ -1,0 +1,148 @@
+/*Global*/
+*{
+	font-family: "OpenSans-Light" Helvetica;
+}
+
+@font-face{
+	font-family: OpenSans-Regular;
+	src: url(../fonts/Open/OpenSans-Regular.ttf);
+}
+@font-face{
+	font-family: OpenSans-Light;
+	src: url(../fonts/Open/OpenSans-Light.ttf);
+}
+@font-face{
+	font-family: OpenSans-Bold;
+	src: url(../fonts/Open/OpenSans-Bold.ttf);
+}
+
+/*SUBRAYAR*/
+.subrayar{
+	text-decoration: line-through;
+}
+ul{
+	list-style: none;
+}
+
+/* Shortcuts */
+.bgb{
+	background-color: #2E9AFE;
+}
+.pd-0 {
+	padding: 0;
+}
+.pt-5 {
+	padding-top: 5%;
+}
+.pt-10 {
+	padding-top: 10%;
+}
+.pb-5{
+	padding-bottom: 5%;
+}
+.pd-5 {
+	padding: 5%;
+}
+.pd-10 {
+	padding: 10%;
+}
+.pd-15 {
+	padding: 15%;
+}
+.pd-lr{
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 10%;
+}
+.pd-f{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.p{
+	padding-left: 15%;
+	padding-right: 15%;
+}
+.pdt {
+	padding-right: 15%;
+	padding-top: 10%;
+}
+.pd-4 {
+	padding-top: 10%; 
+}
+.pd-5-10{
+	padding: 5% 10%;
+}
+.mg{
+	margin-top: 10%;
+}
+.mg5{
+	margin-top: 5%;
+}
+.mg-0{
+	margin: 0;
+}
+.mg2{
+	margin: 2%;
+}
+.w-100{
+	width: 100%;
+}
+.lh{
+	line-height: 1.5;
+}
+.text-bold{
+	font-weight: bold;
+}
+.text-center{
+	text-align: center;
+}
+.text-left{
+	text-align: left;
+}
+.text-right{
+	text-align: right;
+}
+.text-white{
+	color: white;
+}
+.text-gray{
+	color: rgb(83, 88, 95);
+}
+.text-blue{
+ color: #192951;
+}
+.a-none-decoration{
+	text-decoration: none;
+}
+.bg-gray{
+	background-color: #F2F2F2;
+}
+.bg-orange{
+	background-color: orange;
+}
+.bg-black{
+	background-color: #4D4D4D;
+}
+.bg-white{
+	background-color: white;
+}
+.text-gray{
+	color:#F2F2F2;
+}
+.text-black{
+	color: #4D4D4D;
+}
+.text-orange{
+	color: orange;
+}
+.text-white{
+	color:#fff;
+}
+.text-yellow{
+	color: #fac60e;
+}
+.bg-img-block{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}

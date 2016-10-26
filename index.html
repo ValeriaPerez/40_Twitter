@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Twitter</title>
+	<link rel="stylesheet" href="fonts/font-awesome.min.css">
+	<link rel="stylesheet" href="fonts/font-awesome.css">
+	<link rel="stylesheet" href="js/bootstrap.min.js">
+	<link rel="stylesheet" href="js/bootstrap.js">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/utilities.css">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center bgb fix">
+					<h3 class="text-white">
+						iQuehago
+					</h3>
+				</div>
+			</div><!--Mi encabezado -->
+		</header>
+		<section><!--Textarea ID - "deber" boton ID - "agregarDeber" -->
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="row mg2">
+						<textarea class="form-control" placeholder="Escribe algo que tengas que hacer..." id="deber" rows="5">
+							
+						</textarea>
+					</div>
+					<button class="btn btn-primary center-block" id="agregarDeber">
+						<span class="glyphicon glyphicon-save"></span> Agregar a Deberes
+					</button>
+				</div>
+			</div>
+		</section>
+		<section><!--Debes de: -->
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<h4 class="text-center">
+						DEBES DE:
+					</h4>
+				</div>
+			</div>
+		</section>
+		<section class="pre-scrollable scroll"><!--Lista de Deberes ID - "listaDeberes" -->
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<ul id="listaDeberes">
+						
+					</ul>			
+	    		</div>	
+			</div>			
+		</section>	
+	</div>
+	<script src="js/main.js"></script>
+</body>
+</html>
